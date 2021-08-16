@@ -1,6 +1,6 @@
 .btn-slide {
-    width: 60px;
-    height: 60px;
+    width: 102px;
+    height: 88px;
     border-radius: 50%;
     position: absolute;
     display: flex;
@@ -17,12 +17,33 @@
 }
 
 .prev {
-    top: 50%;
-    left: 20px;
+    top: 60%;
+    left: 50px;
     transform: translateY(-60%);
 }
 .next {
-    top: 50%;
-    right: 20px;
+    top: 60%;
+    right: 50px;
     transform: translateY(-60%);
+}
+
+.btn-slide-sm {
+    display: none;
+}
+
+@media screen and (max-width: 768px) {
+    .prev {
+        top: 90%;
+    }
+    .next {
+        top: 90%;
+    }
+    .btn-slide-sm {
+        display: block;
+        width: 80px;
+        height: 66px;
+    }
+    .btn-slide-lg {
+        display: none;
+    }
 }
