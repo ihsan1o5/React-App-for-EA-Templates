@@ -1,19 +1,11 @@
 import React from 'react'
 import { useSelector } from "react-redux";
 import "./Questions.css";
-import VolumeBtn from '../../assets/images/volume_button.png';
-import Cross from '../../assets/images/cross.png';
-import CrossSm from '../../assets/images/cross-sm.png';
-import Tick from '../../assets/images/tick.png';
-import TickSm from '../../assets/images/tick-sm.png';
-import SaveBtn from '../../assets/images/save_button.png';
-import SaveBtnSm from '../../assets/images/save-sm.png';
 import Cow from '../../assets/images/cow.png';
 import Bunny from '../../assets/images/bunny.png';
 import PlayBtn from '../../assets/images/play_audio.png';
-import VolumeBtnSm from '../../assets/images/play-button-sm.png';
-import Star from '../../assets/images/star.png';
 import {Howl, Howler} from 'howler';
+import TopBar from '../../components/TopBar/TopBar';
 
 function FirstQues () {
 
@@ -30,50 +22,14 @@ function FirstQues () {
 };
 
 function Second () {
+
     const state = useSelector((state) => state);
     // console.log(state.lesson.lesson[0].exercises[0].questions[0]);
     const ques = state.lesson.lesson[0].exercises[0].questions[0]
     // console.log(Lesson.responses);
     return (
         <div>
-            <div className="row header-s1">
-                <div className="col-md-2 header-item-s1 saveBtnLg">
-                    {/* for desktop */}
-                    <img src={SaveBtn} className="save-img-s2" alt="save" />
-                    <img src={VolumeBtn} className="play-img-s1" alt="speeker" />
-                </div>
-
-                <div className="col-md-2 header-item-s1 saveBtnSm">
-                    {/* for mobile */}
-                    <img src={SaveBtnSm} className="save-img-s2" alt="save" />
-                    <img src={VolumeBtnSm} className="play-img-s1" alt="speeker" />
-                </div>
-
-                <div className="col-md-7 header-item-s1">
-                    <div className="big-a-text-holder">
-                        <h1>{ques.content}</h1>
-                    </div>
-                </div>
-
-                <div className="col-md-3 header-item-s1 checkboxes">
-                    <div className="checkbox-holder Lg">
-                        <div className="check-box">
-                            <img src={Cross} alt="cross" />
-                        </div>
-                        <div className="check-box">
-                            <img src={Tick} alt="tick" />
-                        </div>
-                        <div className="check-box">
-                            <img src={Cross} alt="cross" />
-                        </div>
-                        <div className="check-box">
-                            <img src={Tick} alt="tick" />
-                        </div>
-                        <div className="check-box"></div>
-                        <div className="check-box"></div>
-                    </div>
-                </div>
-            </div>
+            <TopBar content={ques.content} />    
 
             <div className="row content-s1">
                 <div className="col-md-1"></div>
@@ -103,44 +59,7 @@ const Third = () => {
 
     return (
         <div>
-            <div className="row header-s1">
-                <div className="col-md-2 header-item-s1 saveBtnLg">
-                    {/* for desktop */}
-                    <img src={SaveBtn} className="save-img-s2" alt="save" />
-                    <img src={VolumeBtn} className="play-img-s1" alt="speeker" />
-                </div>
-
-                <div className="col-md-2 header-item-s1 saveBtnSm">
-                    {/* for mobile */}
-                    <img src={SaveBtnSm} className="save-img-s2" alt="save" />
-                    <img src={VolumeBtnSm} className="play-img-s1" alt="speeker" />
-                </div>
-                
-                <div className="col-md-7 header-item-s1">
-                    <div className="big-a-text-holder">
-                        <h1>{ques.content}</h1>
-                    </div>
-                </div>
-
-                <div className="col-md-3 header-item-s1 checkboxes">
-                    <div className="checkbox-holder Lg">
-                        <div className="check-box">
-                            <img src={Cross} alt="cross" />
-                        </div>
-                        <div className="check-box">
-                            <img src={Tick} alt="tick" />
-                        </div>
-                        <div className="check-box">
-                            <img src={Cross} alt="cross" />
-                        </div>
-                        <div className="check-box">
-                            <img src={Tick} alt="tick" />
-                        </div>
-                        <div className="check-box"></div>
-                        <div className="check-box"></div>
-                    </div>
-                </div>
-            </div>
+            <TopBar content={ques.content} /> 
 
             <div className="row content-s1">
                 <div className="col-md-1"></div>
@@ -169,44 +88,7 @@ const Fifth = () => {
 
     return (
         <div>
-            <div className="row header-s1">
-                <div className="col-md-2 header-item-s1 saveBtnLg">
-                    {/* for desktop */}
-                    <img src={SaveBtn} className="save-img-s2" alt="save" />
-                    <img src={VolumeBtn} className="play-img-s1" alt="speeker" />
-                </div>
-
-                <div className="col-md-2 header-item-s1 saveBtnSm">
-                    {/* for mobile */}
-                    <img src={SaveBtnSm} className="save-img-s2" alt="save" />
-                    <img src={VolumeBtnSm} className="play-img-s1" alt="speeker" />
-                </div>
-
-                <div className="col-md-7 header-item-s1">
-                    <div className="big-a-text-holder">
-                        <h1>{ques.content}</h1>
-                    </div>
-                </div>
-
-                <div className="col-md-3 header-item-s1 checkboxes">
-                    <div className="checkbox-holder Lg">
-                        <div className="check-box">
-                            <img src={Cross} alt="cross" />
-                        </div>
-                        <div className="check-box">
-                            <img src={Tick} alt="tick" />
-                        </div>
-                        <div className="check-box">
-                            <img src={Cross} alt="cross" />
-                        </div>
-                        <div className="check-box">
-                            <img src={Tick} alt="tick" />
-                        </div>
-                        <div className="check-box"></div>
-                        <div className="check-box"></div>
-                    </div>
-                </div>
-            </div>
+            <TopBar content={ques.content} /> 
 
             <div className="row content-s1">
                 <div className="col-md-1"></div>
@@ -234,6 +116,11 @@ const Fifth = () => {
 };
 
 const Sixth = () => {
+
+    const playAudio = () => {
+        console.log('this is playing');
+    }
+
     const state = useSelector((state) => state);
     const sco_num = state.config.sco_number;
     const lang = state.config.lang;
@@ -241,60 +128,16 @@ const Sixth = () => {
     // console.log(state.lesson.lesson[0].exercises[0].questions[0]);
     const ques = state.lesson.lesson[0].exercises[0].questions[3]
 
-    const playAudio = (path) => {
-        console.log(path);
-        const sound = new Howl({
-            src: path
-        });
-    }
-
     return (
         <div>
-            <div className="row header-s1">
-                <div className="col-md-2 header-item-s1 saveBtnLg">
-                    {/* for desktop */}
-                    <img src={SaveBtn} className="save-img-s2" alt="save" />
-                    <img src={VolumeBtn} className="play-img-s1" alt="speeker" />
-                </div>
-
-                <div className="col-md-2 header-item-s1 saveBtnSm">
-                    {/* for mobile */}
-                    <img src={SaveBtnSm} className="save-img-s2" alt="save" />
-                    <img src={VolumeBtnSm} className="play-img-s1" alt="speeker" />
-                </div>
-
-                <div className="col-md-7 header-item-s1">
-                    <div className="big-a-text-holder">
-                        <h1>{ques.content}</h1>
-                    </div>
-                </div>
-
-                <div className="col-md-3 header-item-s1 checkboxes">
-                    <div className="checkbox-holder Lg">
-                        <div className="check-box">
-                            <img src={Cross} alt="cross" />
-                        </div>
-                        <div className="check-box">
-                            <img src={Tick} alt="tick" />
-                        </div>
-                        <div className="check-box">
-                            <img src={Cross} alt="cross" />
-                        </div>
-                        <div className="check-box">
-                            <img src={Tick} alt="tick" />
-                        </div>
-                        <div className="check-box"></div>
-                        <div className="check-box"></div>
-                    </div>
-                </div>
-            </div>
+            <TopBar content={ques.content} /> 
 
             <div className="row content-s1">
                 <div className="col-md-1"></div>
                 <div className="col-md-5 content-item">
                     <div className="row">
                         <div className="col-sm-12 sub-content-s4">
-                            <img src={PlayBtn} onClick={playAudio('this')} alt="paly btn" />
+                            <img src={PlayBtn} onClick={playAudio} alt="paly btn" />
                         </div>
                         <div className="col-sm-12 sub-content-s4">
                             <div className="res-text-holder-s3">
@@ -333,44 +176,7 @@ const SeventhQues = () => {
 
     return (
         <div>
-            <div className="row header-s1">
-                <div className="col-md-2 header-item-s1 saveBtnLg">
-                    {/* for desktop */}
-                    <img src={SaveBtn} className="save-img-s2" alt="save" />
-                    <img src={VolumeBtn} className="play-img-s1" alt="speeker" />
-                </div>
-
-                <div className="col-md-2 header-item-s1 saveBtnSm">
-                    {/* for mobile */}
-                    <img src={SaveBtnSm} className="save-img-s2" alt="save" />
-                    <img src={VolumeBtnSm} className="play-img-s1" alt="speeker" />
-                </div>
-
-                <div className="col-md-7 header-item-s1">
-                    <div className="big-a-text-holder">
-                        <h1>{ques.content}</h1>
-                    </div>
-                </div>
-
-                <div className="col-md-3 header-item-s1 checkboxes">
-                    <div className="checkbox-holder Lg">
-                        <div className="check-box">
-                            <img src={Cross} alt="cross" />
-                        </div>
-                        <div className="check-box">
-                            <img src={Tick} alt="tick" />
-                        </div>
-                        <div className="check-box">
-                            <img src={Cross} alt="cross" />
-                        </div>
-                        <div className="check-box">
-                            <img src={Tick} alt="tick" />
-                        </div>
-                        <div className="check-box"></div>
-                        <div className="check-box"></div>
-                    </div>
-                </div>
-            </div>
+            <TopBar content={ques.content} /> 
 
             <div className="row content-s1">
                 <div className="col-md-1"></div>
@@ -406,44 +212,7 @@ const EightQues = () => {
 
     return (
         <div>
-            <div className="row header-s1">
-                <div className="col-md-2 header-item-s1 saveBtnLg">
-                    {/* for desktop */}
-                    <img src={SaveBtn} className="save-img-s2" alt="save" />
-                    <img src={VolumeBtn} className="play-img-s1" alt="speeker" />
-                </div>
-
-                <div className="col-md-2 header-item-s1 saveBtnSm">
-                    {/* for mobile */}
-                    <img src={SaveBtnSm} className="save-img-s2" alt="save" />
-                    <img src={VolumeBtnSm} className="play-img-s1" alt="speeker" />
-                </div>
-
-                <div className="col-md-7 header-item-s1">
-                    <div className="big-a-text-holder">
-                        <h1>{ques.content}</h1>
-                    </div>
-                </div>
-
-                <div className="col-md-3 header-item-s1 checkboxes">
-                    <div className="checkbox-holder Lg">
-                        <div className="check-box">
-                            <img src={Cross} alt="cross" />
-                        </div>
-                        <div className="check-box">
-                            <img src={Tick} alt="tick" />
-                        </div>
-                        <div className="check-box">
-                            <img src={Cross} alt="cross" />
-                        </div>
-                        <div className="check-box">
-                            <img src={Tick} alt="tick" />
-                        </div>
-                        <div className="check-box"></div>
-                        <div className="check-box"></div>
-                    </div>
-                </div>
-            </div>
+            <TopBar content={ques.content} /> 
 
             <div className="row content-s1">
                 <div className="col-md-1"></div>
@@ -479,44 +248,7 @@ const NinethQues = () => {
 
     return (
         <div>
-            <div className="row header-s1">
-                <div className="col-md-2 header-item-s1 saveBtnLg">
-                    {/* for desktop */}
-                    <img src={SaveBtn} className="save-img-s2" alt="save" />
-                    <img src={VolumeBtn} className="play-img-s1" alt="speeker" />
-                </div>
-
-                <div className="col-md-2 header-item-s1 saveBtnSm">
-                    {/* for mobile */}
-                    <img src={SaveBtnSm} className="save-img-s2" alt="save" />
-                    <img src={VolumeBtnSm} className="play-img-s1" alt="speeker" />
-                </div>
-
-                <div className="col-md-7 header-item-s1">
-                    <div className="big-a-text-holder">
-                        <h1>{ques.content}</h1>
-                    </div>
-                </div>
-
-                <div className="col-md-3 header-item-s1 checkboxes">
-                    <div className="checkbox-holder Lg">
-                        <div className="check-box">
-                            <img src={Cross} alt="cross" />
-                        </div>
-                        <div className="check-box">
-                            <img src={Tick} alt="tick" />
-                        </div>
-                        <div className="check-box">
-                            <img src={Cross} alt="cross" />
-                        </div>
-                        <div className="check-box">
-                            <img src={Tick} alt="tick" />
-                        </div>
-                        <div className="check-box"></div>
-                        <div className="check-box"></div>
-                    </div>
-                </div>
-            </div>
+            <TopBar content={ques.content} /> 
 
             <div className="row content-s1">
                 <div className="col-md-1"></div>
@@ -546,44 +278,7 @@ const TenthQues = () => {
 
     return (
         <div>
-            <div className="row header-s1">
-                <div className="col-md-2 header-item-s1 saveBtnLg">
-                    {/* for desktop */}
-                    <img src={SaveBtn} className="save-img-s2" alt="save" />
-                    <img src={VolumeBtn} className="play-img-s1" alt="speeker" />
-                </div>
-
-                <div className="col-md-2 header-item-s1 saveBtnSm">
-                    {/* for mobile */}
-                    <img src={SaveBtnSm} className="save-img-s2" alt="save" />
-                    <img src={VolumeBtnSm} className="play-img-s1" alt="speeker" />
-                </div>
-
-                <div className="col-md-7 header-item-s1">
-                    <div className="big-a-text-holder">
-                        <h1>{ques.content}</h1>
-                    </div>
-                </div>
-
-                <div className="col-md-3 header-item-s1 checkboxes">
-                    <div className="checkbox-holder Lg">
-                        <div className="check-box">
-                            <img src={Cross} alt="cross" />
-                        </div>
-                        <div className="check-box">
-                            <img src={Tick} alt="tick" />
-                        </div>
-                        <div className="check-box">
-                            <img src={Cross} alt="cross" />
-                        </div>
-                        <div className="check-box">
-                            <img src={Tick} alt="tick" />
-                        </div>
-                        <div className="check-box"></div>
-                        <div className="check-box"></div>
-                    </div>
-                </div>
-            </div>
+            <TopBar content={ques.content} /> 
 
             <div className="row content-s1">
                 <div className="col-md-1"></div>
@@ -605,32 +300,6 @@ const TenthQues = () => {
                 </div>
                 <div className="col-md-1"></div>
             </div>
-
-            {/* <div className="row content-s1">
-                <div className="col-md-1"></div>
-                <div className="col-md-5 content-item">
-                    <div className="img-holder-s5">
-                        <img src={Bunny} alt="bunny" />
-                    </div>
-                </div>
-
-                <div className="col-md-1"></div>
-                <div className="col-md-3 content-item">
-                    <div className="row">
-                        {ques.responses.map((res) =>
-                            <div className="col-sm-12">
-                                {res._data.map((content) =>
-                                    <div className="res-text-holder-s3">
-                                        <h1>{content.content}</h1>
-                                    </div>
-                                )}
-                            </div>
-                        )}
-                    </div>
-                </div>
-                <div className="col-md-2"></div>
-                
-            </div> */}
         </div>
     )
 };

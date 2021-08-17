@@ -5,6 +5,7 @@
 .play-img-s1 {
     width: 102px;
     height: 88px;
+    cursor: pointer;
 }
 
 .header-item-s1 {
@@ -177,11 +178,12 @@
         display: flex;
         justify-content: flex-start;
         align-items: flex-start;
-        margin-left: -8%;
+        margin-left: 15px;
     }
     .saveBtnSm > img {
         width: 70px;
         height: 70px;
+        cursor: pointer;
     }
     .checkboxes {
         position: absolute;
