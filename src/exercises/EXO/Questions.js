@@ -67,7 +67,7 @@ const Third = () => {
                     <div key={index} className="col-md-5 col-margin-top-sm">
                         <div className="img-holder-s1">
                             {res._data.map((content, index) =>
-                                <img src={`../../scos/${sco_num}/media/images/${content.content}`} alt={content.content} />
+                                <img className="mx-auto d-block" src={`../../scos/${sco_num}/media/images/${content.content}`} alt={content.content} />
                             )}
                         </div>
                     </div>
@@ -92,13 +92,13 @@ const Fifth = () => {
 
             <div className="row top-margin">
                 <div className="col-md-1"></div>
-                <div className="col-md-5 col-margin-top-sms">
+                <div className="col-md-5">
                     <div className="img-holder-s2">
                         <img src={Bunny} className="mx-auto d-block" alt="cow" />
                     </div>
                 </div>
-                <div className="col-md-5">
-                    {ques.responses.map((res) =>
+                <div className="col-md-5 content-item">
+                {ques.responses.map((res) =>
                         <div>
                             {res._data.map((content) =>
                                 <div className="res-text-holder-s3">
@@ -185,7 +185,7 @@ const SeventhQues = () => {
                         <img src={Bunny} className="mx-auto d-block" alt="cow" />
                     </div>
                 </div>
-                <div className="col-md-5">
+                <div className="col-md-5 content-item">
                 {ques.responses.map((res) =>
                         <div>
                             {res._data.map((content) =>

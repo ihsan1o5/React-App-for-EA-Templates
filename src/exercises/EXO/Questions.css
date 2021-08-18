@@ -176,8 +176,8 @@
         margin-bottom: -50px;
     }
     .img-holder-s1 {
-        width: 409px;
-        height: 316px;
+        width: 300px;
+        height: 300px;
         background-image: url('../../assets/images/image-placeholder-sm.png');
         background-position: center;
         background-repeat: no-repeat;
@@ -190,8 +190,8 @@
         text-align: center;
     }
     .img-holder-s2 {
-        width: 409px;
-        height: 316px;
+        width: 300px;
+        height: 300px;
         background-image: url('../../assets/images/image-placeholder-sm.png');
         background-position: center;
         background-repeat: no-repeat;
@@ -208,7 +208,7 @@
         margin-top: 70px;
         margin-bottom: -50px;
     }
-    .sub-content-s4 {
+    /* .sub-content-s4 {
         margin-bottom: -60px;
-    }
+    } */
 }
