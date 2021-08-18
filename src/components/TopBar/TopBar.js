@@ -28,24 +28,24 @@ const TopBar = ({content}) => {
 
     return (
         <div className="row header-s1">
-                <div className="col-md-2 header-item-s1 saveBtnLg">
+                <div className="col-md-3 mt-4 saveBtnLg">
                     {/* for desktop */}
-                    <img src={VolumeBtn} onClick={playAudio} className="play-img-s1" alt="speeker" />
+                    <img src={VolumeBtn} className="play-img-s1" onClick={playAudio} alt="speeker" />
                 </div>
 
-                <div className="col-md-2 header-item-s1 saveBtnSm">
+                <div className="col-md-2 mt-4 saveBtnSm">
                     {/* for mobile */}
-                    <img src={VolumeBtnSm} onClick={playAudio} className="play-img-s1" alt="speeker" />
+                    <img src={VolumeBtnSm} onClick={playAudio} alt="speeker" />
                 </div>
 
-                <div className="col-md-7 header-item-s1">
+                <div className="col-md-6 mt-4">
                     <div className="big-a-text-holder">
                         <h1>{content}</h1>
                     </div>
                 </div>
 
-                <div className="col-md-3 header-item-s1 checkboxes">
-                    <div className="checkbox-holder Lg">
+                <div className="col-md-3 mt-4 checkboxes">
+                    <div className="checkbox-holder">
                         <div className="check-box">
                             <img src={Cross} alt="cross" />
                         </div>
@@ -58,8 +58,12 @@ const TopBar = ({content}) => {
                         <div className="check-box">
                             <img src={Tick} alt="tick" />
                         </div>
-                        <div className="check-box"></div>
-                        <div className="check-box"></div>
+                        <div className="check-box">
+                            <img src={Tick} alt="tick" />
+                        </div>
+                        <div className="check-box">
+                            <img src={Cross} alt="cross" />
+                        </div>
                     </div>
                 </div>
             </div>

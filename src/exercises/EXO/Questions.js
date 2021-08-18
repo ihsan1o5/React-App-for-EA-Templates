@@ -31,10 +31,10 @@ function Second () {
         <div>
             <TopBar content={ques.content} />    
 
-            <div className="row content-s1">
+            <div className="row top-margin">
                 <div className="col-md-1"></div>
                 {ques.responses.map((res, index) => 
-                    <div key={index} className="col-md-5 content-item-s1">
+                    <div key={index} className="col-md-5 col-margin-top-sm">
                         <div className="img-holder-s1">
                             {res._data.map((content, index) =>
                                 <h1 key={index}>{content.content}</h1>
@@ -61,10 +61,10 @@ const Third = () => {
         <div>
             <TopBar content={ques.content} /> 
 
-            <div className="row content-s1">
+            <div className="row top-margin">
                 <div className="col-md-1"></div>
                 {ques.responses.map((res, index) => 
-                    <div key={index} className="col-md-5 content-item-s1">
+                    <div key={index} className="col-md-5 col-margin-top-sm">
                         <div className="img-holder-s1">
                             {res._data.map((content, index) =>
                                 <img src={`../../scos/${sco_num}/media/images/${content.content}`} alt={content.content} />
@@ -90,14 +90,14 @@ const Fifth = () => {
         <div>
             <TopBar content={ques.content} /> 
 
-            <div className="row content-s1">
+            <div className="row top-margin">
                 <div className="col-md-1"></div>
-                <div className="col-md-5 content-item">
+                <div className="col-md-5 col-margin-top-sms">
                     <div className="img-holder-s2">
-                        <img src={Bunny} alt="cow" />
+                        <img src={Bunny} className="mx-auto d-block" alt="cow" />
                     </div>
                 </div>
-                <div className="col-md-5 content-item">
+                <div className="col-md-5">
                     {ques.responses.map((res) =>
                         <div>
                             {res._data.map((content) =>
@@ -132,14 +132,14 @@ const Sixth = () => {
         <div>
             <TopBar content={ques.content} /> 
 
-            <div className="row content-s1">
+            <div className="row top-margin">
                 <div className="col-md-1"></div>
-                <div className="col-md-5 content-item">
+                <div className="col-md-5">
                     <div className="row">
-                        <div className="col-sm-12 sub-content-s4">
-                            <img src={PlayBtn} onClick={playAudio} alt="paly btn" />
+                        <div className="col-sm-12">
+                            <img src={PlayBtn} className="mx-auto d-block" onClick={playAudio} alt="paly btn" />
                         </div>
-                        <div className="col-sm-12 sub-content-s4">
+                        <div className="col-sm-12">
                             <div className="res-text-holder-s3">
                                 <h1>A</h1>
                             </div>
@@ -150,9 +150,9 @@ const Sixth = () => {
                 <div className="col-md-5 content-item">
                     <div className="row">
                         <div className="col-sm-12 sub-content-s4">
-                            <img src={PlayBtn} alt="paly btn" />
+                            <img src={PlayBtn} className="mx-auto d-block" alt="paly btn" />
                         </div>
-                        <div className="col-sm-12 sub-content-s4">
+                        <div className="col-sm-12">
                             <div className="res-text-holder-s3">
                                 <h1>B</h1>
                             </div>
@@ -178,14 +178,14 @@ const SeventhQues = () => {
         <div>
             <TopBar content={ques.content} /> 
 
-            <div className="row content-s1">
+            <div className="row top-margin">
                 <div className="col-md-1"></div>
-                <div className="col-md-5 content-item">
+                <div className="col-md-5">
                     <div className="img-holder-s2">
-                        <img src={Bunny} alt="cow" />
+                        <img src={Bunny} className="mx-auto d-block" alt="cow" />
                     </div>
                 </div>
-                <div className="col-md-5 content-item">
+                <div className="col-md-5">
                 {ques.responses.map((res) =>
                         <div>
                             {res._data.map((content) =>
@@ -214,11 +214,11 @@ const EightQues = () => {
         <div>
             <TopBar content={ques.content} /> 
 
-            <div className="row content-s1">
+            <div className="row top-margin">
                 <div className="col-md-1"></div>
-                <div className="col-md-5 content-item">
+                <div className="col-md-5">
                     <div className="img-holder-s2">
-                        <img src={Bunny} alt="cow" />
+                        <img src={Bunny} className="mx-auto d-block" alt="cow" />
                     </div>
                 </div>
                 <div className="col-md-5 content-item">
@@ -250,16 +250,16 @@ const NinethQues = () => {
         <div>
             <TopBar content={ques.content} /> 
 
-            <div className="row content-s1">
+            <div className="row top-margin">
                 <div className="col-md-1"></div>
-                <div className="col-md-5 content-item-s1">
+                <div className="col-md-5 col-margin-top-sm">
                     <div className="img-holder-s2">
-                        <img src={Cow} alt="cow" />
+                        <img src={Cow} className="mx-auto d-block" alt="cow" />
                     </div>
                 </div>
-                <div className="col-md-5 content-item-s1">
+                <div className="col-md-5 col-margin-top-sm">
                     <div className="img-holder-s2">
-                        <img src={Bunny} alt="bunny" />
+                        <img src={Bunny} className="mx-auto d-block" alt="bunny" />
                     </div>
                 </div>
                 <div className="col-md-1"></div>
@@ -280,11 +280,11 @@ const TenthQues = () => {
         <div>
             <TopBar content={ques.content} /> 
 
-            <div className="row content-s1">
+            <div className="row top-margin">
                 <div className="col-md-1"></div>
-                <div className="col-md-5 content-item">
+                <div className="col-md-5">
                     <div className="img-holder-s2">
-                        <img src={Bunny} alt="cow" />
+                        <img src={Bunny} className="mx-auto d-block" alt="cow" />
                     </div>
                 </div>
                 <div className="col-md-5 content-item">
