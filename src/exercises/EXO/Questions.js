@@ -15,7 +15,7 @@ function FirstQues () {
     return (
         <div>
             
-            <h1>Hello</h1>
+            <h1>Hello this is first slide</h1>
 
         </div>
     )
