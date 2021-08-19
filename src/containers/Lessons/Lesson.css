@@ -7,58 +7,48 @@
     background-size: cover;
 }
 
-.headr {
-    display: flex;
-}
-
-.header-item {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    margin-top: 40px;
-}
-
 .level-holder {
     width: 247px;
     height: 88px;
     background-image: url('../../assets/images/levels_button.png');
-    display: flex;
-    justify-content: center;
-    align-items: center;
     color: white;
+    margin: auto;
+    padding-top: 20px;
+}
+
+.level-holder > h1 {
+    text-align: center;
 }
 
 .lesson-holder {
     width: 394px;
     height: 88px;
     background-image: url('../../assets/images/lessons_button.png');
-    display: flex;
-    justify-content: center;
-    align-items: center;
     color: white;
+    margin: auto;
+    padding-top: 20px;
+}
+
+.lesson-holder > h1 {
+    text-align: center;
 }
 
 .units-holder {
     width: 247px;
     height: 88px;
     background-image: url('../../assets/images/levels_button.png');
-    display: flex;
-    justify-content: center;
-    align-items: center;
     color: white;
+    margin: auto;
+    padding-top: 20px;
+}
+
+.units-holder > h1 {
+    text-align: center;
 }
 
 .content {
-    display: flex;
     color: white;
-}
-
-.content-item {
-    height: 200px;
-    display: flex;
-    flex-wrap: wrap;
-    align-items: center;
-    justify-content: center;
+    margin-top: 10px;
 }
 
 .bg-clickable {
@@ -66,13 +56,11 @@
 }
 
 .btn-active {
-    width: 160px;
-    height: 160px;
-    display: flex;
-    justify-content: center;
-    align-items: center;
+    width: 140px;
+    height: 140px;
     background-color: rgba(255, 255, 255, 0.4);
     border-radius: 50%;
+    padding-top: 10px;
 }
 
 .level-btn {
@@ -81,9 +69,8 @@
     border: 10px solid #fff;
     border-radius: 50%;
     background-color: #f47f6f;
-    display: flex;
-    justify-content: center;
-    align-items: center;
+    margin: auto;
+    padding-top: 15px;
 }
 
 .disable {
@@ -93,23 +80,49 @@
 .lock {
     border-radius: 50%;
     background-color: rgba(0,0, 0, .5);
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    position: absolute;
     width: 100px;
     height: 100px;
+    position: absolute;
+    top: 10px;
+    padding-top: 30px;
 }
 
-/* .reward {
-    width: 57px;
-    height: 70px;
-    background-image: url('../../scos/75215/media/images/reward.png');
-    display: flex;
-    justify-content: center;
-    align-items: center;
-} */
+.ratting {
+    text-align: center;
+}
 
-.lock-icon {
-    font-size: 40px;
+@media screen and (max-width: 768px) {
+    .level-holder {
+        width: 200px;
+        height: 68px;
+        background-image: url('../../assets/images/progress-meter-sm.png');
+        background-position: center;
+        background-repeat: no-repeat;
+        background-size: cover;
+        padding-top: 10px;
+    }
+    .lesson-holder {
+        width: 335px;
+        height: 72px;
+        background-image: url('../../assets/images/main-button-sm.png');
+        color: white;
+        margin: auto;
+        padding-top: 10px;
+    }
+    .units-holder {
+        width: 200px;
+        height: 68px;
+        background-image: url('../../assets/images/progress-meter-sm.png');
+        background-position: center;
+        background-repeat: no-repeat;
+        background-size: cover;
+        padding-top: 10px;
+    }
+    .content-sm {
+        margin-top: -20px;
+        margin-right: 20px;
+    }
+    .content-sm-rw1 {
+        margin-right: 20px;
+    }
 }
