@@ -8,19 +8,19 @@ import PlayBtn from '../../assets/images/play_audio.png';
 import {Howl, Howler} from 'howler';
 import TopBar from '../../components/TopBar/TopBar';
 
-function FirstQues () {
+// function FirstQues () {
 
-    const state = useSelector((state) => state);
-    // console.log('all lesson data in questions......',state.config.lang);
+//     const state = useSelector((state) => state);
+//     // console.log('all lesson data in questions......',state.config.lang);
 
-    return (
-        <div>
+//     return (
+//         <div>
             
-            <h1>Hello this is first slide</h1>
+//             <h1>Hello this is first slide</h1>
 
-        </div>
-    )
-};
+//         </div>
+//     )
+// };
 
 function Second () {
 
@@ -297,5 +297,5 @@ const TenthQues = () => {
     )
 };
 
-export {Second, FirstQues, Third, Fifth, Sixth, SeventhQues, EightQues, NinethQues, TenthQues};
+export {Second, Third, Fifth, Sixth, SeventhQues, EightQues, NinethQues, TenthQues};
 

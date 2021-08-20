@@ -48,7 +48,7 @@
 
 .content {
     color: white;
-    margin-top: 10px;
+    margin-top: 50px;
 }
 
 .bg-clickable {
@@ -71,6 +71,7 @@
     background-color: #f47f6f;
     margin: auto;
     padding-top: 15px;
+    z-index: 2;
 }
 
 .disable {
@@ -90,6 +91,88 @@
 .ratting {
     text-align: center;
 }
+
+.svg1 {
+    width: 85%;
+    height: 200%;
+    /* background: #eee; */
+    margin-bottom: 5%;
+    position: absolute;
+    transform: rotate(273deg);
+    margin-top: -130px;
+    margin-left: -150px;
+    z-index: 0;
+  }
+  .svg1-2 {
+    width: 105%;
+    height: 210%;
+    /* background: #eee; */
+    margin-bottom: 5%;
+    position: absolute;
+    transform: rotate(271deg);
+    margin-top: -130px;
+    margin-left: -150px;
+    z-index: 0;
+  }
+  .svg2 {
+    width: 300px;
+    height: 277px;
+    /* background: #eee; */
+    margin-bottom: 5%;
+    position: absolute;
+    transform: rotate(249deg);
+    margin-top: -240px;
+    margin-left: -80px;
+  }
+  .svg2-2 {
+    width: 330px;
+    height: 273px;
+    /* background: #eee; */
+    margin-bottom: 5%;
+    position: absolute;
+    transform: rotate(256deg);
+    margin-top: -239px;
+    margin-left: -80px;
+  }
+  .svg3 {
+    width: 90%;
+    height: 337%;
+    /* background: #eee; */
+    margin-bottom: 5%;
+    position: absolute;
+    transform: rotate(460deg);
+    margin-top: -190px;
+    margin-left: -85px;
+  }
+  .svg4 {
+    width: 70%;
+    height: 179%;
+    /* background: #eee; */
+    margin-bottom: 5%;
+    position: absolute;
+    transform: rotate(257deg);
+    margin-top: -2px;
+    margin-left: 137px;
+  }
+  .svg5 {
+    width: 30%;
+    height: 114%;
+    /* background: #eee; */
+    margin-bottom: 5%;
+    position: absolute;
+    transform: rotate(241deg);
+    margin-top: -122px;
+    margin-left: 282px;
+  }
+  svg polyline,
+  svg line,
+  svg path {
+    fill: none;
+    stroke: #fff;
+    /* stroke-linecap: round; */
+    stroke-linejoin: round;
+    transition: 0.2s;
+  }
 
 @media screen and (max-width: 768px) {
     .level-holder {

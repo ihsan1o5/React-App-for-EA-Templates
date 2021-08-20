@@ -32,7 +32,7 @@ const Lesson = ({ load_config, load_slider, match }) => {
 
     return (
         <div className="page-bg container-fluid">
-            <div className="row ">
+            <div className="row">
                 <div className="col-md-4 mt-3">
                     <div className="level-holder">
                         <h1>Levels</h1>
@@ -59,6 +59,9 @@ const Lesson = ({ load_config, load_slider, match }) => {
                         <div className="level-btn">
                             <img className="mx-auto d-block" src={Reward} />
                         </div>
+                        <svg viewBox="0 0 10 10" class="svg1">
+                            <path d="M2,2 Q8,2 8,8" />
+                        </svg>
                     </div>
                 </div>
                 <div className="col-md-2 content-item-bottom">
@@ -73,6 +76,9 @@ const Lesson = ({ load_config, load_slider, match }) => {
                             </div>
                         </div>
                     </div>
+                    <svg viewBox="0 0 10 10" class="svg1-2">
+                        <path d="M2,2 Q8,2 8,8" />
+                    </svg>
                 </div>
                 <div className="col-md-2">
                     {/* <h1>Button5</h1> */}
@@ -86,6 +92,9 @@ const Lesson = ({ load_config, load_slider, match }) => {
                             </div>
                         </div>
                     </div>
+                    <svg viewBox="0 0 10 10" class="svg1-2">
+                        <path d="M2,2 Q8,2 8,8" />
+                    </svg>
                 </div>
             </div>
 
@@ -114,6 +123,9 @@ const Lesson = ({ load_config, load_slider, match }) => {
                             </div>
                         </div>
                     </div>
+                    <svg viewBox="0 0 10 10" class="svg3">
+                        <path d="M1,2 Q8,2 8,10" />
+                    </svg>
                 </div>
                 <div className="col-md-2">
                     {/* <h1>Button4</h1> */}
@@ -127,6 +139,9 @@ const Lesson = ({ load_config, load_slider, match }) => {
                             </div>
                         </div>
                     </div>
+                    <svg viewBox="0 0 10 10" class="svg3">
+                        <path d="M1,2 Q8,2 8,10" />
+                    </svg>
                 </div>
                 <div className="col-md-2">
                     {/* <h1>Button6</h1> */}
@@ -138,6 +153,9 @@ const Lesson = ({ load_config, load_slider, match }) => {
                     {/* <h1>Button1</h1> */}
                 </div>
                 <div className="col-md-2">
+                    <svg viewBox="0 0 10 10" class="svg2">
+                        <path d="M1,4 Q5,2 6,5 T12,8" />
+                    </svg>
                     <div className="bg-clickable">
                         <div className="level-btn">
                             <img className="mx-auto d-block" src={Reward} />
@@ -151,6 +169,9 @@ const Lesson = ({ load_config, load_slider, match }) => {
                     {/* <h1>Button3</h1> */}
                 </div>
                 <div className="col-md-2">
+                    <svg viewBox="0 0 10 10" class="svg2-2">
+                        <path d="M1,4 Q5,2 6,5 T12,8" />
+                    </svg>
                     <div className="bg-clickable">
                         <div className="level-btn">
                             <img className="mx-auto d-block" src={Reward} />
@@ -164,6 +185,9 @@ const Lesson = ({ load_config, load_slider, match }) => {
                     {/* <h1>Button5</h1> */}
                 </div>
                 <div className="col-md-2">
+                    <svg viewBox="0 0 10 10" class="svg2-2">
+                        <path d="M1,4 Q5,2 6,5 T12,8" />
+                    </svg>
                     <div className="bg-clickable">
                         <div className="level-btn">
                             <img className="mx-auto d-block" src={Reward} />

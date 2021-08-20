@@ -1,13 +1,13 @@
 import React, {useState, useEffect} from "react";
 import { connect } from 'react-redux';
-import {FirstQues, Second, Third, Fifth, Sixth, SeventhQues, EightQues, NinethQues, TenthQues} from "../../exercises/EXO/Questions";
+import {Second, Third, Fifth, Sixth, SeventhQues, EightQues, NinethQues, TenthQues} from "../../exercises/EXO/Questions";
 import "./Slider.css";
 import BtnSlider from "../../components/BtnSlide/BtnSlider";
 
 const Slider = () => {
 
     const [current, setCurrent] = useState(0);
-    let sliderArray = [<FirstQues />, <Second />, <Third />, <Fifth />, <Sixth />, <SeventhQues />, <EightQues />, <NinethQues />, <TenthQues />];
+    let sliderArray = [<Second />, <Third />, <Fifth />, <Sixth />, <SeventhQues />, <EightQues />, <NinethQues />, <TenthQues />];
     const length = sliderArray.length;
     
     const nextSlide = () => {
