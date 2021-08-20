@@ -91,8 +91,8 @@
                                 "id": 0,
                                 "selected": 0,
                                 "_data": [{
-                                    "content": "song.mp3",
-                                    "type": "audio"
+                                    "content": "A",
+                                    "type": "text"
                                 }],
                                 "correct": 0
                             },
@@ -100,8 +100,8 @@
                                 "id": 1,
                                 "selected": 0,
                                 "_data": [{
-                                    "content": "song.mp3",
-                                    "type": "audio"
+                                    "content": "B",
+                                    "type": "text"
                                 }],
                                 "correct": 1
                             }
@@ -166,7 +166,7 @@
                                 "id": 0,
                                 "selected": 0,
                                 "_data": [{
-                                    "content": "Cow",
+                                    "content": "cow.png",
                                     "type": "image-md"
                                 }],
                                 "correct": 0
@@ -175,7 +175,7 @@
                                 "id": 1,
                                 "selected": 0,
                                 "_data": [{
-                                    "content": "Bunny",
+                                    "content": "bunny.png",
                                     "type": "image-md"
                                 }],
                                 "correct": 1

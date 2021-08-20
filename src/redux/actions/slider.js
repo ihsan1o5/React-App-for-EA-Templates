@@ -6,7 +6,7 @@ export const load_slider = () => dispatch => {
     const lang = localStorage.getItem('lang');
 
     try {
-        const data = require(`../../scos/${sco_num}/${lang}/lesson.json`);
+        const data = require(`../../../public/scos/${sco_num}/${lang}/lesson.json`);
         console.log('this is slider dispatch...', data);
         dispatch({
             type: ActionConstants.LOAD_SLIDER_SUCCESS,

@@ -4,7 +4,7 @@ import VolumeBtn from '../../assets/images/volume_button.png';
 import Cross from '../../assets/images/cross.png';
 import CrossSm from '../../assets/images/cross-sm.png';
 import Tick from '../../assets/images/tick.png';
-import BackgroundAudio from '../../scos/75215/media/audio/myaudio.mp3';
+import BackgroundAudio from '../../assets/audio/myaudio.mp3';
 import {Howl, Howler} from 'howler';
 
 const TopBar = ({content}) => {

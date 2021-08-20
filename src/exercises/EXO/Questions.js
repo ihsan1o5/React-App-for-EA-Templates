@@ -2,7 +2,7 @@ import React from 'react'
 import { useSelector } from "react-redux";
 import "./Questions.css";
 import Cow from '../../assets/images/cow.png';
-import MyCow from '../../scos/75215/media/images/cow.png';
+// import MyCow from '../../scos/75215/media/images/cow.png';
 import Bunny from '../../assets/images/bunny.png';
 import PlayBtn from '../../assets/images/play_audio.png';
 import {Howl, Howler} from 'howler';
@@ -66,9 +66,9 @@ const Third = () => {
                 <div className="col-md-1"></div>
                 {ques.responses.map((res, index) => 
                     <div key={index} className="col-md-5 col-margin-top-sm">
-                        <div className="text-holder-s1">
+                        <div className="img-holder-s1">
                             {res._data.map((content, index) =>
-                                <img className="mx-auto d-block" src={`../../scos/${sco_num}/media/images/${content.content}`} alt={content.content} />
+                                <img className="mx-auto d-block" src={`/scos/${sco_num}/media/images/${content.content}`} alt={content.content} />
                             )}
                         </div>
                     </div>
@@ -99,7 +99,7 @@ const Fifth = () => {
                     </div>
                 </div>
                 <div className="col-md-5">
-                {ques.responses.map((res) =>
+                    {ques.responses.map((res) =>
                         <div>
                             {res._data.map((content) =>
                                 <div className="res-text-holder-s3">
@@ -135,31 +135,24 @@ const Sixth = () => {
 
             <div className="row top-margin">
                 <div className="col-md-1"></div>
-                <div className="col-md-5">
-                    <div className="row">
-                        <div className="col-sm-12">
-                            <img src={PlayBtn} className="mx-auto d-block" onClick={playAudio} alt="paly btn" />
-                        </div>
-                        <div className="col-sm-12">
-                            <div className="res-text-holder-s3">
-                                <h1>A</h1>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-
-                <div className="col-md-5 content-item">
-                    <div className="row">
-                        <div className="col-sm-12 sub-content-s4">
-                            <img src={PlayBtn} className="mx-auto d-block" alt="paly btn" />
-                        </div>
-                        <div className="col-sm-12">
-                            <div className="res-text-holder-s3">
-                                <h1>B</h1>
-                            </div>
+                {ques.responses.map((res) =>
+                    <div className="col-md-5">
+                        <div className="row">
+                            {res._data.map((content) =>
+                                <>
+                                    <div className="col-sm-12">
+                                        <img src={PlayBtn} className="mx-auto d-block" onClick={playAudio} alt="paly btn" />
+                                    </div>
+                                    <div className="col-sm-12">
+                                        <div className="res-text-holder-s3">
+                                            <h1>{content.content}</h1>
+                                        </div>
+                                    </div>
+                                </>
+                            )}
                         </div>
                     </div>
-                </div>
+                )}
                 <div className="col-md-1"></div>
                 
             </div>
@@ -253,16 +246,15 @@ const NinethQues = () => {
 
             <div className="row top-margin">
                 <div className="col-md-1"></div>
-                <div className="col-md-5 col-margin-top-sm">
-                    <div className="img-holder-s2">
-                        <img src={Cow} className="mx-auto d-block" alt="cow" />
+                {ques.responses.map((res) => 
+                    <div className="col-md-5 col-margin-top-sm">
+                        <div className="img-holder-s2">
+                            {res._data.map((content) =>
+                                <img className="mx-auto d-block" src={`/scos/${sco_num}/media/images/${content.content}`} alt={content.content} />
+                            )}
+                        </div>
                     </div>
-                </div>
-                <div className="col-md-5 col-margin-top-sm">
-                    <div className="img-holder-s2">
-                        <img src={Bunny} className="mx-auto d-block" alt="bunny" />
-                    </div>
-                </div>
+                )}
                 <div className="col-md-1"></div>
             </div>
         </div>
