@@ -31,7 +31,7 @@ const Lesson = ({ load_config, load_slider, match }) => {
     }
 
     return (
-        <div className="page-bg">
+        <div className="page-bg container-fluid">
             <div className="row ">
                 <div className="col-md-4 mt-3">
                     <div className="level-holder">

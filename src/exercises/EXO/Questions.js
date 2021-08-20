@@ -2,6 +2,7 @@ import React from 'react'
 import { useSelector } from "react-redux";
 import "./Questions.css";
 import Cow from '../../assets/images/cow.png';
+import MyCow from '../../scos/75215/media/images/cow.png';
 import Bunny from '../../assets/images/bunny.png';
 import PlayBtn from '../../assets/images/play_audio.png';
 import {Howl, Howler} from 'howler';
@@ -28,14 +29,14 @@ function Second () {
     const ques = state.lesson.lesson[0].exercises[0].questions[0]
     // console.log(Lesson.responses);
     return (
-        <div>
+        <div className="container-fluid">
             <TopBar content={ques.content} />    
 
             <div className="row top-margin">
                 <div className="col-md-1"></div>
                 {ques.responses.map((res, index) => 
                     <div key={index} className="col-md-5 col-margin-top-sm">
-                        <div className="img-holder-s1">
+                        <div className="text-holder-s1">
                             {res._data.map((content, index) =>
                                 <h1 key={index}>{content.content}</h1>
                             )}
@@ -58,14 +59,14 @@ const Third = () => {
     // console.log(Lesson);
 
     return (
-        <div>
+        <div className="container-fluid">
             <TopBar content={ques.content} /> 
 
             <div className="row top-margin">
                 <div className="col-md-1"></div>
                 {ques.responses.map((res, index) => 
                     <div key={index} className="col-md-5 col-margin-top-sm">
-                        <div className="img-holder-s1">
+                        <div className="text-holder-s1">
                             {res._data.map((content, index) =>
                                 <img className="mx-auto d-block" src={`../../scos/${sco_num}/media/images/${content.content}`} alt={content.content} />
                             )}
@@ -87,7 +88,7 @@ const Fifth = () => {
     const ques = state.lesson.lesson[0].exercises[0].questions[2]
 
     return (
-        <div>
+        <div className="container-fluid">
             <TopBar content={ques.content} /> 
 
             <div className="row top-margin">
@@ -97,7 +98,7 @@ const Fifth = () => {
                         <img src={Bunny} className="mx-auto d-block" alt="cow" />
                     </div>
                 </div>
-                <div className="col-md-5 content-item">
+                <div className="col-md-5">
                 {ques.responses.map((res) =>
                         <div>
                             {res._data.map((content) =>
@@ -129,7 +130,7 @@ const Sixth = () => {
     const ques = state.lesson.lesson[0].exercises[0].questions[3]
 
     return (
-        <div>
+        <div className="container-fluid">
             <TopBar content={ques.content} /> 
 
             <div className="row top-margin">
@@ -175,7 +176,7 @@ const SeventhQues = () => {
     const ques = state.lesson.lesson[0].exercises[0].questions[4]
 
     return (
-        <div>
+        <div className="container-fluid">
             <TopBar content={ques.content} /> 
 
             <div className="row top-margin">
@@ -185,7 +186,7 @@ const SeventhQues = () => {
                         <img src={Bunny} className="mx-auto d-block" alt="cow" />
                     </div>
                 </div>
-                <div className="col-md-5 content-item">
+                <div className="col-md-5">
                 {ques.responses.map((res) =>
                         <div>
                             {res._data.map((content) =>
@@ -211,7 +212,7 @@ const EightQues = () => {
     const ques = state.lesson.lesson[0].exercises[0].questions[5]
 
     return (
-        <div>
+        <div className="container-fluid">
             <TopBar content={ques.content} /> 
 
             <div className="row top-margin">
@@ -221,7 +222,7 @@ const EightQues = () => {
                         <img src={Bunny} className="mx-auto d-block" alt="cow" />
                     </div>
                 </div>
-                <div className="col-md-5 content-item">
+                <div className="col-md-5">
                 {ques.responses.map((res) =>
                         <div>
                             {res._data.map((content) =>
@@ -247,7 +248,7 @@ const NinethQues = () => {
     const ques = state.lesson.lesson[0].exercises[0].questions[6]
 
     return (
-        <div>
+        <div className="container-fluid">
             <TopBar content={ques.content} /> 
 
             <div className="row top-margin">
@@ -277,7 +278,7 @@ const TenthQues = () => {
     const ques = state.lesson.lesson[0].exercises[0].questions[7]
 
     return (
-        <div>
+        <div className="container-fluid">
             <TopBar content={ques.content} /> 
 
             <div className="row top-margin">
@@ -287,7 +288,7 @@ const TenthQues = () => {
                         <img src={Bunny} className="mx-auto d-block" alt="cow" />
                     </div>
                 </div>
-                <div className="col-md-5 content-item">
+                <div className="col-md-5">
                 {ques.responses.map((res) =>
                         <div>
                             {res._data.map((content) =>
