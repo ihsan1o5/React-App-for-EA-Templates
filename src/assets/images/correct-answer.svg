@@ -1,0 +1,14 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="36" height="36" viewBox="0 0 36 36">
+  <defs>
+    <pattern id="pattern" preserveAspectRatio="none" width="100%" height="100%" viewBox="0 0 61 57">
+      <image width="61" height="57" xlink:href="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAD0AAAA5CAYAAACF8yP/AAAABHNCSVQICAgIfAhkiAAABK5JREFUaEPdm1eoXVUQhr+xgA0sWMAWVFCDiCIiETEginotUWMQjA2jWBAxYosSFZKHCAbFggoafbCADyrog0YlYsEWxd4eFATBLubBXkb+tffJPZ67795r77vbybyeWbPmX7PWrDX/7GOMuzjXAVcBnwDzMH4ogmRFCr3+3bkEuHPIx2cwJop8Hl/QzhzgFWDjEZBzMV7OAz6eoJ2dgXeAHTPArcU4ZMMC7WwKvA4clAPsOIynp/t9/CLt3A+cW3Bu38c4YMMA7VwE3F2UqNLfT8V4PEt3fCKdJK6XIGzvGPkU2A/j31Hl8QDtIWF9ME3iyluAszAeGj/QSeJShBXpsvIFsDfGP8MD+x9p5x7gwrJoh/QvwLh3fEB7yNLK1jORb4HdMP4aGOlvpD3cw7qPYxNX3sIsxrit36CTxKUXl15edciPwK4Yv8tY/yLt4S2tN3WVxJW3QNdi3NRX0KqaVD3VLeuAWRjr+hVpZyHwcN1oh+wtx7ihP6CTxPV2g4Bl+hdgl36AdrZLX1x1Ja68tTume9BJ4loDzG04ygPzE30AfSuwuCXAv+oa7Ba0czrwSEuANc1lGLd3B9o5EHgV2Lwl0CuwwJx29DhJEpdeXLu3APg34MxhQqH9SDsbAS+0lLi+BI7H+KjbKstZCVzRQoR1I4gy+nl0rnYj7cwHHmsB8C2h65FBFbV7pp3901JxiwZB/wGcg/Fo3hzFkXZ2gHC1vImF+ra8ONumT8w9yg+OHvFV2stSgsyVfNAerpPXYD2HPAfjjSKjU353VgNHlx4XP0BtnPkxzbvi7e2sAhYNza1sOBtD10CceKhhr4lTrqR1B3D5KPlXbXs7p0Hm2ViJhdZosTSbuP4Ezi46v1lOZm/vpMwTe5H1WhKdejDGu7monX3Tc9xE4voaOBGrVopOBe3MAt4Cts8B9XE458bfmTrO1ingvYq3Q2kNJVM1378vPTId8H/Qzj7A84FEK5ZlGDdmJC3ZfBY4qthEaQ1x4JdOu9iR5iZBO4cDTwLbRI6VmnpFivqkOMuA60vYiFVdhPFArHJxInPOA+6rYHANxpHrxzknA09UsJM3RGT9KVi4OmsRozrggQNXY9yMMxtYC2xZi2eJEb0JBFiJqzYR6M+BPWdoUff5SQXJr+wUqzDOLzsoRl+gvwF2ilFuSUc9J7Vh7mpqvjq2d52+fZduZzEqjUmSvT0QcyLoupT3gIm6z28WoOErawmwoiPUKgVVEqo0bFxGHyfLgaWNzzo5gV50Vw63UduYO+sZ2hYPrfaprqPcr/uaWITpCg5lzoubmDC1qfN7AoYK/9ZlehJhai1dl3P6tmthW+c3P5GN/uqBE38QOKMmtCpJl2CBDe1UiugicdTKrAtm6KVoWNGxomU7lxhiUF1Fbcl5Fb0V0S7CXVRTL6QYtNx0Nkn56rLAtVhqqcRzai0sSxzoSeBPAcdG+KXvMZdinT12cl2MBz0w4zxXwIqoB7wg73vriEVrVKUK6M0g8NhZXw78FHaChbq6t1IedLLVxXCKBztsCJkYjiOw8K+ZXks10AnwrVLghwIfplv6s16jTZ2rDjoBLmpIHPiL4wB24ON/Y5Hv4umptmwAAAAASUVORK5CYII="/>
+    </pattern>
+  </defs>
+  <g id="Group_45" data-name="Group 45" transform="translate(-1026 -86)">
+    <g id="Rectangle_1" data-name="Rectangle 1" transform="translate(1029 89)" fill="none" stroke="#fff" stroke-width="3">
+      <rect width="30" height="30" rx="5" stroke="none"/>
+      <rect x="-1.5" y="-1.5" width="33" height="33" rx="6.5" fill="none"/>
+    </g>
+    <rect id="tick" width="23" height="21" transform="translate(1033 93)" fill="url(#pattern)"/>
+  </g>
+</svg>

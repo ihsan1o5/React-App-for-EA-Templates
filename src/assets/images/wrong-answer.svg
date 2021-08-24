@@ -1,0 +1,9 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="36" height="36" viewBox="0 0 36 36">
+  <g id="Group_46" data-name="Group 46" transform="translate(-1069 -86)">
+    <g id="Rectangle_1_copy" data-name="Rectangle 1 copy" transform="translate(1072 89)" fill="none" stroke="#fff" stroke-width="3">
+      <rect width="30" height="30" rx="5" stroke="none"/>
+      <rect x="-1.5" y="-1.5" width="33" height="33" rx="6.5" fill="none"/>
+    </g>
+    <image id="cross" width="23" height="21" transform="translate(1076 94)" xlink:href="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABcAAAAVCAYAAACt4nWrAAAAAXNSR0IArs4c6QAAADhlWElmTU0AKgAAAAgAAYdpAAQAAAABAAAAGgAAAAAAAqACAAQAAAABAAAAF6ADAAQAAAABAAAAFQAAAAD/76DzAAABkklEQVQ4Ea2VPyxDURTGS0SExCCpKBaxqcVsNUoMBoM/FYnRZjIbGAwWBhqDzWDxZzNh0ASNhYT4M1oMJNb6nZfe5/Tl3PtUepKv99zv+853X1/72kylUsk0CAPkPIBXMCGZTfLSgMqSUQa9KmtKX/UYBy3IYXWiHf8jSFbJBS0r5Zje8WlrK94bNavbogyvaabaX7F2grTwc2NWqG/QJcO+kg8nB3wHnPkG4SdlTga3AqZ3tGExKrTRXwJfbSBEfjd073PCf4LR6kAHaxn46gDBZUZXLpt+ICGhmkUM3YoT9DhYer3JQ3yB/9QRQzor6pPEEKa3OtMPrWDhkuGy7wF34C+1g8nKiDivwNBtSvpFKFi0ZvVboNsCm5wmjD4Pt2jwv5RxuvXEht7EkpFh3pbNUEpAK1gH6Hs+HxgW6SNFH0fXeTXfluvA8ClaFmwHPCKNgPiAuIFcEdWoXTjtWzc8jlrVXj0k/Z5zsT6BaZD0yH4OJJ/mF7hBEPvjRpHybzQDWhRn+frQ98EzKIJuUOP7ATTl+mUkkSWJAAAAAElFTkSuQmCC"/>
+  </g>
+</svg>

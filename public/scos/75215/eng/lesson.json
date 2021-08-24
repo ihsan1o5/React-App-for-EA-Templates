@@ -33,7 +33,7 @@
                         ]
                     },
                     {
-                        "content": "Crocodile",
+                        "content": "Bunny",
                         "type": "text",
                         "id": 1,
                         "responses": [
@@ -91,7 +91,7 @@
                                 "id": 0,
                                 "selected": 0,
                                 "_data": [{
-                                    "content": "A",
+                                    "content": "test_audio_file.mp3",
                                     "type": "text"
                                 }],
                                 "correct": 0
@@ -100,7 +100,7 @@
                                 "id": 1,
                                 "selected": 0,
                                 "_data": [{
-                                    "content": "B",
+                                    "content": "test_audio_file.mp3",
                                     "type": "text"
                                 }],
                                 "correct": 1
@@ -208,7 +208,7 @@
                         ]
                     }
                 ],
-                "type": "exe1"
+                "type": "EXO"
             }
         ]
     }

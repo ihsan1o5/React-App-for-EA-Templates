@@ -1,8 +1,8 @@
 import React from 'react'
-import BackBtn from "../../assets/images/back_button.png";
-import BackBtnSm from "../../assets/images/back-button-sm.png";
-import NextBtn from "../../assets/images/next_button.png";
-import NextBtnSm from "../../assets/images/next-button-sm.png";
+import BackBtn from "../../assets/my-images/back_button.png";
+import BackBtnSm from "../../assets/my-images/back-button-sm.png";
+import NextBtn from "../../assets/my-images/next_button.png";
+import NextBtnSm from "../../assets/my-images/next-button-sm.png";
 import './style.css';
 
 const BtnSlider = ({direction, moveSlide}) => {

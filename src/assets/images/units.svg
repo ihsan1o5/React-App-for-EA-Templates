@@ -1,0 +1,61 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="247" height="88" viewBox="0 0 247 88">
+  <defs>
+    <linearGradient id="linear-gradient" x1="0.5" y1="1" x2="0.5" gradientUnits="objectBoundingBox">
+      <stop offset="0" stop-color="#8c2747"/>
+      <stop offset="1" stop-color="#d65731"/>
+    </linearGradient>
+    <linearGradient id="linear-gradient-2" y1="0.5" x2="1" y2="0.5" gradientUnits="objectBoundingBox">
+      <stop offset="0" stop-color="#c77cbd"/>
+      <stop offset="1" stop-color="#974577"/>
+    </linearGradient>
+  </defs>
+  <g id="Group_14" data-name="Group 14" transform="translate(-1079 -40)">
+    <g id="Vector_Smart_Object_copy_4" data-name="Vector Smart Object copy 4" transform="translate(1008.667 -35.526)">
+      <g id="Group_3" data-name="Group 3">
+        <g id="Group_2" data-name="Group 2">
+          <path id="Path_1" data-name="Path 1" d="M311.9,140.548l-88.492,12.22s63.405-4.142,91.049-8.577a27.777,27.777,0,0,1-7.424,13.823c-64.618,12.4-227.741,0-227.741,0l-5.823-42.222,17.545-1.812,7.119,1.964h37.65l-27.372-2.152-15.59-5.36-21.907,2.62L70.337,93.16c84.827-8.813,246.716-11.437,246.716-11.437C317.5,101.711,314.517,126.486,311.9,140.548Z" fill-rule="evenodd" fill="url(#linear-gradient)"/>
+          <path id="Path_2" data-name="Path 2" d="M70.333,93.169,72.1,87.446l6.463-5.721s173.551-1.431,233.615-6.2l4.878,6.2S168.619,84.787,70.333,93.169Z" fill="#ff8b3e" fill-rule="evenodd"/>
+          <path id="Path_3" data-name="Path 3" d="M72.1,87.446s58.082-1.513,117.931-1.513l-119.7,7.236Z" fill="#e06834" fill-rule="evenodd"/>
+          <path id="Path_4" data-name="Path 4" d="M73.467,115.792l3.765-2.119,14.161-1.311,6.745,1.715,16.64.215,21,1.651H118.6l-20.578,1.8-6.383-3.586Z" fill="#e6774f" fill-rule="evenodd"/>
+          <path id="Path_5" data-name="Path 5" d="M70.912,111.05l6.32,2.623,14.161-1.311,6.745,1.715,16.041.878,21.6.988-27-2.734L92.819,108.43Z" fill="#892334" fill-rule="evenodd"/>
+          <g id="Group_1" data-name="Group 1" opacity="0.2" style="mix-blend-mode: multiply;isolation: isolate">
+            <path id="Path_6" data-name="Path 6" d="M116.769,160.385s21.447-41.945,73.261-60.541,126.3,5.326,126.3,5.326l-.593,7.017s-68.379-32.13-120.271-11.865-71.223,60.462-71.223,60.462Z" fill-rule="evenodd" fill="url(#linear-gradient-2)"/>
+            <path id="Path_7" data-name="Path 7" d="M127.984,160.784s12.7-33.633,62.046-48.6,74.053,8.161,89.829,17.938,33.609.909,33.609.909l-1.57,9.514s-17.689.492-30.281-6.516-48.547-35.421-87.924-19.879-47.468,47.667-47.468,47.667Z" fill-rule="evenodd" fill="url(#linear-gradient-2)"/>
+            <path id="Path_8" data-name="Path 8" d="M98.139,159.291s25.665-16.272,43.722-36.667,23.569-35.2,23.569-35.2l12.175-7.1-11.036.207-18.63,5.624s-30.029,54.493-65.1,72.119Z" fill-rule="evenodd" fill="url(#linear-gradient-2)"/>
+            <path id="Path_9" data-name="Path 9" d="M171.548,162.746s15.912-28.506,53.759-35.972,77.018,32.065,77.018,32.065l-2.87.452s-37.938-39.42-74.291-31.015-50.182,34.47-50.182,34.47Z" fill-rule="evenodd" fill="url(#linear-gradient-2)"/>
+            <path id="Path_10" data-name="Path 10" d="M205.205,147.193a38.135,38.135,0,0,1,26.8-13.732c17.677-1.253,25.091,8.159,25.091,8.159S221.742,152.88,205.205,147.193Z" fill-rule="evenodd" fill="url(#linear-gradient-2)"/>
+            <path id="Path_11" data-name="Path 11" d="M271.782,115.943s-20.993-15.563-44-12.881C227.784,103.062,257.276,98.769,271.782,115.943Z" fill-rule="evenodd" fill="url(#linear-gradient-2)"/>
+            <path id="Path_12" data-name="Path 12" d="M156.734,112.186l21.813-25.56,9.13-6.5L193.694,80,181.78,85.933l-14.354,16.653,31.649-16.653L215.194,79.5l3.138-.079-15.408,6.51Z" fill-rule="evenodd" fill="url(#linear-gradient-2)"/>
+            <path id="Path_13" data-name="Path 13" d="M76.64,138.8l17.543-23.215-2.545-1.43-6.227.406-10.43,12.216Z" fill-rule="evenodd" fill="url(#linear-gradient-2)"/>
+            <path id="Path_14" data-name="Path 14" d="M90.585,108.43,99.56,90.92l6.853-4.192,27.8-5.672h3.733l-28.328,5.734-4.993,4.3-5.151,19.326L92.8,108.43Z" fill-rule="evenodd" fill="url(#linear-gradient-2)"/>
+          </g>
+          <path id="Path_15" data-name="Path 15" d="M135.782,115.943l22.141,1.664,60.41-.832Z" fill="#892334" fill-rule="evenodd"/>
+          <path id="Path_16" data-name="Path 16" d="M304.12,141.621l10.336,2.569-38.4,6.08-52.652,2.5Z" fill="#e6774f" fill-rule="evenodd"/>
+          <path id="Path_17" data-name="Path 17" d="M112.217,160.131l39.528-.84,54.743,4.171S139.571,161.856,112.217,160.131Z" fill="#801b34" fill-rule="evenodd"/>
+          <path id="Path_18" data-name="Path 18" d="M315.735,112.186l-59.26,3.509,39.923-1.544Z" fill="#801b34" fill-rule="evenodd"/>
+          <path id="Path_19" data-name="Path 19" d="M183.822,117.25,188.1,118.8l9.551-1.739Z" fill="#e6774f" fill-rule="evenodd"/>
+          <path id="Path_20" data-name="Path 20" d="M173.811,159.291s12.131-23.284,40.154-29.474C213.965,129.817,188.749,136.483,173.811,159.291Z" fill="#d9772f" fill-rule="evenodd" opacity="0.4"/>
+          <path id="Path_21" data-name="Path 21" d="M100.249,146.458s23.709-20.545,34.308-39.18C134.557,107.278,114.9,132.454,100.249,146.458Z" fill="#d9772f" fill-rule="evenodd" opacity="0.4"/>
+          <path id="Path_22" data-name="Path 22" d="M197.649,110.126a80.3,80.3,0,0,1,37.827-1.695c20.433,4.169,37.883,16.578,46.692,22.978,0,0-8.32-7.6-25.07-16.365S215.185,103.958,197.649,110.126Z" fill="#d9772f" fill-rule="evenodd" opacity="0.4"/>
+          <path id="Path_23" data-name="Path 23" d="M211.24,94.592s28.028-8.953,105.088,10.577C316.328,105.17,260.472,85.932,211.24,94.592Z" fill="#d9772f" fill-rule="evenodd" opacity="0.4"/>
+          <path id="Path_24" data-name="Path 24" d="M293.166,76.746l9.16,5.326-2.4,7.479-.2-6.4Z" fill="#892334" fill-rule="evenodd"/>
+          <path id="Path_25" data-name="Path 25" d="M104.624,112.361l6.348-5.082-2.563,6.512Z" fill="#892334" fill-rule="evenodd"/>
+          <path id="Path_26" data-name="Path 26" d="M77.4,144.291l7.185,5.621L77.4,146.458Z" fill="#892334" fill-rule="evenodd"/>
+          <path id="Path_27" data-name="Path 27" d="M136.918,152.767l6.558-5.666-4.277,5.666Z" fill="#801b34" fill-rule="evenodd"/>
+          <path id="Path_28" data-name="Path 28" d="M262.185,162.611l-5.71-4.593,8.944,4.428Z" fill="#801b34" fill-rule="evenodd"/>
+          <path id="Path_29" data-name="Path 29" d="M136.918,152.767l1.889-.575,4.669-5.091-4.277,5.666Z" fill="#dc634f" fill-rule="evenodd"/>
+          <path id="Path_30" data-name="Path 30" d="M77.4,146.458l.5,1.476,6.682,1.978Z" fill="#dc634f" fill-rule="evenodd"/>
+          <path id="Path_31" data-name="Path 31" d="M258.056,159.291l2.225,3.32,1.331.134Z" fill="#dc634f" fill-rule="evenodd"/>
+          <path id="Path_32" data-name="Path 32" d="M117.4,90.323h25.218l89.672-4.391,67.432-2.784-1.008-.984L169.566,87.17Z" fill="#b64034" fill-rule="evenodd"/>
+          <path id="Path_33" data-name="Path 33" d="M302.326,82.072l12.13,1.077,1.28,12.657-1.564,14.529-5.14,1.852h6.7s2.4-19.97,1.319-30.461Z" fill="#b64034" fill-rule="evenodd"/>
+          <path id="Path_34" data-name="Path 34" d="M79.291,158.014l-1.39-10.08.7-1.476-1.2-2.168v-9.13l-3.931-19.369,3.575,30.667Z" fill="#8e2634" fill-rule="evenodd"/>
+          <path id="Path_35" data-name="Path 35" d="M305.483,141.433l6.994-4.391-.579,3.5Z" fill="#8e2634" fill-rule="evenodd"/>
+          <path id="Path_36" data-name="Path 36" d="M291.683,160.315,309.83,154.7l-2.8,3.318Z" fill="#801b34" fill-rule="evenodd"/>
+          <path id="Path_37" data-name="Path 37" d="M299.259,76.4l9.932.341,4.134,2.368.356,2.609,3.373,0-4.877-6.2Z" fill="#fcca70" fill-rule="evenodd" style="mix-blend-mode: soft-light;isolation: isolate"/>
+          <path id="Path_38" data-name="Path 38" d="M72.1,87.447l15.952-.365-6.936-1.149-4.7.311-.76-.812,2.614-3.268,3.564.824,3.469-.824,11.31-.621-18.045.182Z" fill="#fcca70" fill-rule="evenodd" style="mix-blend-mode: soft-light;isolation: isolate"/>
+        </g>
+      </g>
+    </g>
+    <text id="Units" transform="translate(1203 101.445)" fill="#fff" font-size="50" font-family="CooperBlackStd, Cooper Std"><tspan x="-73.25" y="0">Units</tspan></text>
+  </g>
+</svg>
